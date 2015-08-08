@@ -1,0 +1,17 @@
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base">
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- ActionBar color -->
+        <item name="colorPrimary">@color/accent_material_light</item>
+        <!-- Status bar color -->
+        <item name="colorPrimaryDark">@color/accent_material_dark</item>
+        <!-- Window color -->
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+</resources>

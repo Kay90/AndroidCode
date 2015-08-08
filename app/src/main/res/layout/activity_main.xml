@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize">
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/textHello"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="@string/hello_world" />
+
+    <Button
+        android:layout_below="@+id/textHello"
+        android:id="@+id/btnVisibly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/visibly"/>
+
+    <LinearLayout
+        android:id="@+id/layoutLinear"
+        android:layout_below="@+id/btnVisibly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true">
+        <TextView
+            android:id="@+id/textContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="dqwioiueoisaudioashdhsakjduqwioudoijsadwqoiuqiowdsakldklsadiowqueoiqweqwewqeqwdsadqwioiueoisaudioashdhsakjduqwioudoijsadwqoiuqiowdsakldklsadiowqueoiqweqwewqeqwdsadqwioiueoisaudioashdhsakjduqwioudoijsadwqoiuqiowdsakldklsadiowqueoiqweqwewqeqwdsadqwioiueoisaudioashdhsakjduqwioudoijsadwqoiuqiowdsakldklsadiowqueoiqweqwewqeqwdsadqwioiueoisaudioashdhsakjduqwioudoijsadwqoiuqiowdsakldklsadiowqueoiqweqwewqeqwdsadqwioiueoisaudioashdhsakjduqwioudoijsadwqoiuqiowdsakldklsadiowqueoiqweqwewqeqwdsadqwioiueoisaudioashdhsakjduqwioudoijsadwqoiuqiowdsakldklsadiowqueoiqweqwewqeqwdsadqwioiueoisaudioashdhsakjduqwioudoijsadwqoiuqiowdsakldklsadiowqueoiqweqwewqeqwdsadqwioiueoisaudioashdhsakjduqwioudoijsadwqoiuqiowdsakldklsadiowqueoiqweqwewqeqwdsadqwioiueoisaudioashdhsakjduqwioudoijsadwqoiuqiowdsakldklsadiowqueoiqweqwewqeqwdsadqwioiueoisaudioashdhsakjduqwioudoijsadwqoiuqiowdsakldklsadiowqueoiqweqwewqeqwdsadqwioiueoisaudioashdhsakjduqwioudoijsadwqoiuqiowdsakldklsadiowqueoiqweqwewqeqwdsadqwioiueoisaudioashdhsakjduqwioudoijsadwqoiuqiowdsakldklsadiowqueoiqweqwewqeqwdsadqwioiueoisaudioashdhsakjduqwioudoijsadwqoiuqiowdsakldklsadiowqueoiqweqwewqeqwdsadqwioiueoisaudioashdhsakjduqwioudoijsadwqoiuqiowdsakldklsadiowqueoiqweqwewqeqwdsa"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
