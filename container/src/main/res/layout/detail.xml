@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kai.containeri.views.MyDetailView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="Hello Container">
+
+  <TextView
+      android:id="@+id/text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="20sp"
+      />
+
+  <Button
+      android:id="@+id/button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="提交"
+      />
+
+</com.kai.containeri.views.MyDetailView>
