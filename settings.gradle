@@ -1,1 +1,1 @@
-include ':app', ':tablayout', ':container'
+include ':app', ':tablayout', ':container', ':autoscrollviewpager'
